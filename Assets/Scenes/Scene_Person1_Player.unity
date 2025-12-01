@@ -222,8 +222,8 @@ GameObject:
   - component: {fileID: 210539049}
   - component: {fileID: 210539048}
   m_Layer: 0
-  m_Name: GameObject 1
-  m_TagString: Untagged
+  m_Name: Coffee_InteractionZone
+  m_TagString: CoffeeZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -248,7 +248,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 2, y: 2, z: 2}
 --- !u!4 &210539049
 Transform:
   m_ObjectHideFlags: 0
@@ -258,7 +258,7 @@ Transform:
   m_GameObject: {fileID: 210539047}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 603.17, y: 1.75382, z: 613.69}
+  m_LocalPosition: {x: 600.96, y: -1.22, z: 612.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -372,8 +372,8 @@ GameObject:
   - component: {fileID: 411308928}
   - component: {fileID: 411308927}
   m_Layer: 0
-  m_Name: GameObject 2
-  m_TagString: Untagged
+  m_Name: 'PC_InteractionZone '
+  m_TagString: PCZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -398,7 +398,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 2, y: 2, z: 2}
 --- !u!4 &411308928
 Transform:
   m_ObjectHideFlags: 0
@@ -408,7 +408,7 @@ Transform:
   m_GameObject: {fileID: 411308926}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 602.29, y: 1.75372, z: 618.73}
+  m_LocalPosition: {x: 599.49, y: -0.87, z: 615.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
