@@ -163,8 +163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94ca6fb7cef3ecf43ac370d947425eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RandomLetter
-  minigameUI: {fileID: 0}
   letterText: {fileID: 1029125220}
+  minigameUI: {fileID: 888640970}
 --- !u!1 &888640970
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,7 +477,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.101e-42, y: 2.524355e-29, z: 0, w: 0.0000000023258657}
+  m_BoundingSphereOverride: {x: 5.515748e+11, y: 7.214922e+22, z: 2.6240578e+32, w: 4.8393748e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
