@@ -52,12 +52,15 @@ public class TypingGame : MonoBehaviour
         
         foreach (char c in Input.inputString)
         {
-            if (char.ToUpper(c) == currentLetter)
+            char upper = char.ToUpper(c);
+            if (char.IsLetter(upper) && upper == currentLetter)
             {
                 Debug.Log("Richtig!");
-                ScoreManager.Instance.AddScore(10);
-                
                 GenerateNewLetter();
+            }
+            else if (char.IsLetter(upper))
+            {
+                Debug.Log("Falsch!");
             }
         }
     }
